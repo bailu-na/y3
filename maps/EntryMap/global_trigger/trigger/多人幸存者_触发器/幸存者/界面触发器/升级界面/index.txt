@@ -1,0 +1,7 @@
+{
+    "choice0.json": 2, 
+    "choice1.json": 3, 
+    "choice2.json": 4, 
+    "关闭升级界面.json": 1, 
+    "打开升级界面.json": 0
+}

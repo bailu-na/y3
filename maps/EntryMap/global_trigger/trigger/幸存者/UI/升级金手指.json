@@ -1,0 +1,124 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "6152d2f078ac11eeb9cf30d042e90e85"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 2102202408000100, 
+            "enable": true
+        }, 
+        {
+            "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+            "args_list": [
+                {
+                    "arg_type": 100175, 
+                    "args_list": [
+                        3
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "空格调试"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 2102202408000261, 
+            "enable": false
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        2
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 2102202408000002, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": 0, 
+    "p_trigger_id": null, 
+    "trigger_id": 2102202408, 
+    "trigger_name": "升级金手指", 
+    "valid": true, 
+    "var_data": [
+        {
+            "FLOAT": {
+                "边缘偏移": 0.0
+            }, 
+            "INTEGER": {
+                "i": 0, 
+                "表索引集合": 0
+            }, 
+            "POINT": {
+                "中心点": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }, 
+                "选择点": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }, 
+                "随机点": {
+                    "__tuple__": true, 
+                    "items": [
+                        0, 
+                        0, 
+                        0
+                    ]
+                }
+            }, 
+            "RECTANGLE": {
+                "屏幕矩形": 0
+            }
+        }, 
+        {
+            "i": 0, 
+            "中心点": 0, 
+            "屏幕矩形": 0, 
+            "表索引集合": 10, 
+            "边缘偏移": 0, 
+            "选择点": 0, 
+            "随机点": 0
+        }, 
+        [
+            "i", 
+            "中心点", 
+            "屏幕矩形", 
+            "表索引集合", 
+            "边缘偏移", 
+            "选择点", 
+            "随机点"
+        ]
+    ]
+}
